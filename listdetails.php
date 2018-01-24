@@ -1,4 +1,4 @@
 <?php 
 
-echo $_POST["hop"];
+echo $_POST["send"];
 ?>
