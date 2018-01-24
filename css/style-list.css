@@ -1,4 +1,3 @@
-@import "compass/css3";
 @import url(https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 body, input, .sort {
@@ -34,7 +33,8 @@ input:focus {
 }
 .sort:hover {
   text-decoration: none;
-  background-color: #e6e6e6;
+  background-color: rgb(204, 0, 0);
+  font-weight: bold;
   color: #000000;
 }
 .sort:focus {
@@ -92,12 +92,28 @@ input:focus {
 
 .list li img:hover{
 	
-	background-color: gray;
+	background-color: rgb(204, 0, 0);
+}
+
+.list li input {
+  float: left;
+  width: 150px !important;
+  height: 120px !important;
+  padding-right: 20px;
+}
+
+.list li input:hover{
+	
+	width: 300px !important;
+  	height: 240px !important;
+	background-color: rgb(204, 0, 0);
 }
 
 .list li h3 {
+	
   font-size: 2em;
   margin: 0 0 0.3rem;
+  
   font-weight: 600;
 }
 .list li .project-title {
